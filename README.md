@@ -1,5 +1,7 @@
 # GSACA-Double-Sort
 
+Paper: https://doi.org/10.4230/LIPIcs.ESA.2021.15
+
 ```
 @InProceedings{bertram_et_al:LIPIcs.ESA.2021.15,
   author =	{Bertram, Nico and Ellert, Jonas and Fischer, Johannes},
