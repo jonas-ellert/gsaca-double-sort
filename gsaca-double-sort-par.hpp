@@ -1,6 +1,15 @@
 #pragma once
 
 #include "gsaca-double-sort/parallel/gsaca-ds-par.hpp"
+#include "gsaca-double-sort/parallel-for-lce/gsaca-ds-par.hpp"
+
+template<typename index_type, typename value_type>
+static void gsaca_for_lce(value_type const *const text, 
+                          index_type *const sa,
+                          size_t const n,
+                          size_t const threads = 0) {
+  gsaca_lyndon::gsaca_for_lce(text, sa, n, threads);
+}
 
 template<typename index_type, typename value_type>
 static void gsaca_ds1_par(value_type const *const text, 
